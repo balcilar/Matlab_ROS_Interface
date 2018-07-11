@@ -9,8 +9,9 @@ http://www.clearpathrobotics.com/guides/jackal/navigation.html
 After all necessary installation completed you should type the following commands in seperate terminals: 
 
 Terminal 1:
+```
 roslaunch jackal_gazebo jackal_world.launch config:=front_laser
-
+```
 Terminal 2:
 roslaunch jackal_navigation odom_navigation_demo.launch
 
